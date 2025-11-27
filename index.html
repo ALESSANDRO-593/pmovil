@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tipos de Autos Eléctricos - Proyecto Informativo</title>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #eef1f4;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(120deg, #0066ff, #00c8ff);
+      padding: 50px 20px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section-title {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #222;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 35px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .card-content p {
+      color: #555;
+      font-size: 16px;
+    }
+
+    .long-text {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      margin-top: 50px;
+      font-size: 18px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Tipos de Autos Eléctricos</h1>
+    <p>Proyecto informativo sobre movilidad sostenible, energía limpia y el futuro del transporte.</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">¿Qué es un automóvil eléctrico?</h2>
+
+    <div class="long-text">
+      <p>
+        Un automóvil eléctrico es un vehículo que utiliza uno o más motores eléctricos para generar movimiento.
+        A diferencia de los autos tradicionales que dependen completamente de combustibles fósiles como la gasolina o el diésel, 
+        los autos eléctricos aprovechan la energía almacenada en baterías recargables o de fuentes alternativas como el hidrógeno.
+      </p>
+
+      <p>
+        En los últimos años, este tipo de tecnología ha tomado una gran relevancia debido a los problemas ambientales, 
+        el cambio climático, la contaminación del aire y la necesidad de buscar soluciones más sostenibles. 
+        Muchas ciudades y países han empezado a promover el uso de autos eléctricos por sus grandes ventajas: 
+        menor contaminación, ahorro económico a largo plazo, silencio en su funcionamiento y menos mantenimiento.
+      </p>
+
+      <p>
+        Dependiendo del tipo de sistema que utilicen, los autos eléctricos se clasifican en varias categorías. 
+        A continuación podrás ver cada tipo explicado de manera clara, con imágenes ilustrativas y su funcionamiento.
+      </p>
+    </div>
+
+    <!-- CARDS DE TIPOS -->
+    <h2 class="section-title">Clasificación de Autos Eléctricos</h2>
+
+    <div class="card-grid">
+
+      <!-- BEV -->
+      <div class="card">
+        <img src="https://images.pexels.com/photos/1113958/pexels-photo-1113958.jpeg" alt="BEV">
+        <div class="card-content">
+          <h3>BEV – Vehículo 100% Eléctrico</h3>
+          <p>
+            Los BEV funcionan exclusivamente con electricidad almacenada en grandes baterías. 
+            No utilizan gasolina ni ningún combustible tradicional. Son los más ecológicos ya que no producen emisiones de CO₂.
+          </p>
+          <p><b>Ejemplos:</b> Tesla Model 3, Nissan Leaf, BYD Dolphin.</p>
+        </div>
+      </div>
+
+      <!-- HEV -->
+      <div class="card">
+        <img src="https://images.pexels.com/photos/193993/pexels-photo-193993.jpeg" alt="HEV">
+        <div class="card-content">
+          <h3>HEV – Vehículo Híbrido</h3>
+          <p>
+            Combinan un motor eléctrico con un motor de gasolina. El sistema decide cuándo usar cada motor para ahorrar combustible.
+            No necesitan enchufarse, ya que la batería se carga con la energía del frenado.
+          </p>
+          <p><b>Ejemplos:</b> Toyota Prius, Honda Insight.</p>
+        </div>
+      </div>
+
+      <!-- PHEV -->
+      <div class="card">
+        <img src="https://images.pexels.com/photos/136872/pexels-photo-136872.jpeg" alt="PHEV">
+        <div class="card-content">
+          <h3>PHEV – Híbrido Enchufable</h3>
+          <p>
+            Similar a un híbrido, pero con una batería más grande que se puede cargar mediante un enchufe o estación de carga. 
+            Pueden recorrer varios kilómetros solo con electricidad antes de usar gasolina.
+          </p>
+          <p><b>Ejemplos:</b> Mitsubishi Outlander PHEV, Toyota RAV4 Prime.</p>
+        </div>
+      </div>
+
+      <!-- FCEV -->
+      <div class="card">
+        <img src="https://images.pexels.com/photos/159293/car-vehicle-automobile-vintage-159293.jpeg" alt="FCEV">
+        <div class="card-content">
+          <h3>FCEV – Vehículo de Hidrógeno</h3>
+          <p>
+            En lugar de baterías grandes, utilizan hidrógeno comprimido que al combinarse con oxígeno genera electricidad.
+            Su única emisión es vapor de agua, por lo que son extremadamente limpios.
+          </p>
+          <p><b>Ejemplos:</b> Toyota Mirai, Hyundai Nexo.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TEXTO ADICIONAL LARGO -->
+    <div class="long-text">
+      <h2 style="text-align:center;">Ventajas de los Autos Eléctricos</h2>
+
+      <p>
+        Los autos eléctricos representan una evolución importante en la industria automotriz y en la forma en que los seres humanos 
+        se movilizan. A continuación se detallan las principales ventajas:
+      </p>
+
+      <ul>
+        <li>✔ Reducción significativa de emisiones contaminantes.</li>
+        <li>✔ Menor gasto en mantenimiento porque no tienen aceite, filtros o piezas que se desgasten fácilmente.</li>
+        <li>✔ Energía más barata que la gasolina.</li>
+        <li>✔ Funcionamiento silencioso, lo que mejora la experiencia al conducir.</li>
+        <li>✔ Ayudan a combatir el cambio climático.</li>
+        <li>✔ Muchos gobiernos ofrecen incentivos económicos.</li>
+      </ul>
+
+      <h2 style="text-align:center;">Desafíos y Limitaciones</h2>
+      <p>
+        A pesar de todos sus beneficios, los autos eléctricos también enfrentan desafíos importantes:
+      </p>
+
+      <ul>
+        <li>⚠ Infraestructura de carga aún limitada en algunos países.</li>
+        <li>⚠ Tiempo de carga mayor comparado con llenar gasolina.</li>
+        <li>⚠ Precio inicial más alto.</li>
+        <li>⚠ Menor autonomía (en algunos modelos).</li>
+      </ul>
+
+      <h2 style="text-align:center;">El Futuro de la Movilidad</h2>
+      <p>
+        Todo apunta a que los autos eléctricos serán el futuro del transporte.  
+        Grandes marcas como Tesla, BMW, Hyundai, Toyota y BYD están invirtiendo miles de millones en nuevas baterías, 
+        cargadores, autos más rápidos, más baratos y con mayores autonomías.
+      </p>
+
+      <p>
+        Los próximos años traerán autos eléctricos mucho más accesibles, con cargas ultra rápidas y tecnologías avanzadas 
+        como conducción autónoma, inteligencia artificial y sistemas de seguridad mejorados.
+      </p>
+    </div>
+
+  </section>
+
+  <footer>
+    Proyecto académico • Movilidad Eléctrica • 2025
+  </footer>
+
+</body>
+</html>
